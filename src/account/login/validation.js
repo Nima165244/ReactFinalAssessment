@@ -1,17 +1,17 @@
-const Validation = (values) => {
-    let errors ={}
+// const Validation = (values) => {
+//     let errors ={}
 
-    if(!values.name){
-        errors.name = "Name Required"
-    }
+//     if(!values.name){
+//         errors.name = "Name Required"
+//     }
 
-    if(!values.password){
-        errors.password= "Password Required"
-    }
+//     if(!values.password){
+//         errors.password= "Password Required"
+//     }
 
 
-    return errors;
+//     return errors;
    
-}
+// }
 
-export default Validation;
+// export default Validation;

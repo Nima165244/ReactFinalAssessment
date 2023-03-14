@@ -26,16 +26,29 @@ const Login = () => {
   };
   const validationSchema = Yup.object().shape({
     username: Yup.string()
+      .min(3, "Username is too short")
       .required("Please enter username"),
     password: Yup.string()
+      .matches(
+        /^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.{8,})/,
+        "Must Contain 8 Characters, One Uppercase, One Lowercase and One Number"
+      )
+      .min(8, "Password should contain atleast 8 characters")
       .required("Enter your password")
       .required("Enter your password"),
   });
+  // const validationSchema = Yup.object().shape({
+  //   username: Yup.string()
+  //     .required("Please enter username"),
+  //   password: Yup.string()
+  //     .required("Enter your password")
+  //     .required("Enter your password"),
+  // });
 
   const btnStyle = { margin: "8px 0" };
   const navigate = useNavigate();
   function navigateHandler() {
-    navigate("/success");
+    navigate("/dashboard");
   }
       
   return (

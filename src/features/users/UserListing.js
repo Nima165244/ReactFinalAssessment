@@ -6,7 +6,7 @@ import TableContainer from '@mui/material/TableContainer';
 import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
-import  Sidebar  from './common/side-navbar/SideNavbar';
+import  Sidebar  from '../common/side-navbar/SideNavbar';
 //import Sidebar from './sidebar';
 import axios from "axios";
 //import {} from './product.css';

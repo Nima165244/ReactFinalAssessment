@@ -120,12 +120,12 @@ export default function PersistentDrawerLeft() {
         
           
             <ListItem key='Dashboard' disablePadding>
-              <ListItemButton href='/success'>
+              <ListItemButton href='/dashboard'>
                 <ListItemText primary='Dashboard' />
               </ListItemButton>
             </ListItem>
             <ListItem key='Products' disablePadding>
-              <ListItemButton href='/ProductInfo'>
+              <ListItemButton href='/productinfo'>
                 <ListItemText primary='Products' />
               </ListItemButton>
             </ListItem>
@@ -135,7 +135,7 @@ export default function PersistentDrawerLeft() {
               </ListItemButton>
             </ListItem>
             <ListItem key='Todo' disablePadding>
-              <ListItemButton href='/Todo'>
+              <ListItemButton href='/todo'>
                 <ListItemText primary='Todo' />
               </ListItemButton>
             </ListItem>

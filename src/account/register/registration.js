@@ -129,10 +129,10 @@ const label = { inputProps: { "aria-label": "Checkbox demo" } };
                 placeholder="Enter your emailId"
                 helperText={<ErrorMessage name="email" />}
               />
-              <FormControl style={marginTop}>
+              {/* <FormControl style={marginTop}>
                 <FormLabel id="demo-radio-buttons-group-label">
-                   Gender 
-                &nbsp;&nbsp; &nbsp;
+                  Gender
+                </FormLabel>
                 <RadioGroup
                   aria-labelledby="demo-radio-buttons-group-label"
                   defaultValue="female"
@@ -150,10 +150,9 @@ const label = { inputProps: { "aria-label": "Checkbox demo" } };
                     label="Male"
                   />
                 </RadioGroup>
-                </FormLabel>
-              </FormControl>
+              </FormControl> */}
               <br></br>
-              <br></br>
+                  <br></br>
               <label>Skills</label>
               <br></br>
               <br></br>
